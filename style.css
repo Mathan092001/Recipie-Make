@@ -245,6 +245,9 @@ button{
 .hidden{
     display: none;
 }
+.dedtaile-img{
+   width: 100%;
+}
 @media (max-width: 600px){
     .search-container{
         flex-direction: column;

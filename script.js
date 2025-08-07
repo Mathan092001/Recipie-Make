@@ -88,7 +88,7 @@ async function handleMealClick(e) {
             }
 
             mealDetailsContent.innerHTML = `
-                <img src="${meal.strMealThumb}" alt="${meal.strMeal}" class="class-dedtaile-img">
+                <img src="${meal.strMealThumb}" alt="${meal.strMeal}" class="dedtaile-img">
                 <h2 class="meal-details-title">${meal.strMeal}</h2>
                 <div class="meal-details-category"><span>${meal.strCategory || "Uncategorized"}</span></div>
                 <div class="meal-details-instructions">
